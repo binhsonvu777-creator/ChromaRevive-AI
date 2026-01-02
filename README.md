@@ -45,7 +45,7 @@
 The AI needs to learn what colors look like.
 
 1.  Create a folder named `train_images` inside the project directory.
-2.  Add **50-100 colorful images** (JPG/PNG) to that folder. (Tip: Use images similar to your target video content).
+2.  Add **50-100 colorful images** (JPG/PNG) to that folder. (Tip: Use images similar to your target video content + Some images are in the folder).
 3.  Run the trainer:
     ```bash
     python train.py
