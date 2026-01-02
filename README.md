@@ -5,7 +5,16 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![AI Generated](https://img.shields.io/badge/Made%20with-AI%20Assistance-purple)
+![Status](https://img.shields.io/badge/Status-Alpha-orange)
+
+> 🚧 **Alpha Testing Notice**
+> 
+> This project is currently in the **Alpha** stage of development. 
+> *   You may encounter bugs or performance issues.
+> *   Colorization accuracy depends heavily on the training data provided. 
+> *   Results may vary: some images/videos will turn out great, while others may look washed out or have artifacts. 
+> 
+> We are constantly working to improve the model architecture and stability.
 
 ## ✨ Features
 
@@ -45,7 +54,7 @@
 The AI needs to learn what colors look like.
 
 1.  Create a folder named `train_images` inside the project directory.
-2.  Add **50-100 colorful images** (JPG/PNG) to that folder. (Tip: Use images similar to your target video content + Some images are in the folder).
+2.  Add **50-100 colorful images** (JPG/PNG) to that folder. (Tip: Use images similar to your target video content).
 3.  Run the trainer:
     ```bash
     python train.py
